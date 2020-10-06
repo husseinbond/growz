@@ -243,24 +243,7 @@
   </div>
 
 
-<script>
 
-new Vue({
-  el: '#app',
-  data () {
-    return {
-      info: null
-    }
-  },
-  mounted () {
-    axios
-      .get('https://api.coindesk.com/v1/bpi/currentprice.json')
-      .then(response => (console.log(response) ))
-  }
-})
-
-
-</script>
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/jquery-ui.js"></script>
   <script src="js/popper.min.js"></script>
