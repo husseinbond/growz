@@ -25,3 +25,7 @@ Route::post('/couponsstore', 'cartController@couponsstore')->name('getcoupon');
 Route::post('/se', 'cartController@store')->name('storecart');
 Route::get('/cart', 'cartController@index')->name('cart');
 Route::post('/edit/{id}', 'cartController@edit')->name('editcart');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
