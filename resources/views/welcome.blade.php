@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/style.css">
-    <script src="{{ asset('js/app.js') }}" ></script>
+
 
 <!-- Fonts -->
 <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -243,7 +243,7 @@
   </div>
 
 
-
+  <script src="{{ asset('js/app.js') }}" ></script>
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/jquery-ui.js"></script>
   <script src="js/popper.min.js"></script>
